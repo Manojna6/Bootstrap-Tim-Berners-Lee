@@ -1,19 +1,25 @@
 <head>
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <center>
-    <ul class="menu">
+    <nav class="navbar-inverse">
+        <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menunav"><span class="icon-bar"></span></button><a href="#" class="navbar-nav">Tim Berners Lee</a></div>
+        <div class="collapse navbar-collapse" id="menunav">
+    <ul class="nav navbar-nav">
         <li class="links"><a href="#home">Home</a></li>
     <li class="links"><a href="#Videos">Videos</a></li>
     <li class="links">Work</li>
     <li class="links">Writing</li>
     <li class="links">Contact</li>
     </ul>
-        </center>
+        </div>
+    </nav>
 <section id="home">
     <div>
     <img id="portfolioimg" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg">
@@ -42,13 +48,10 @@
         <h1>Writing</h1>
             <a href="https://www.amazon.com/Weaving-Web-Original-Ultimate-Destiny/dp/006251587X">Weaving the Web by-Tim Berners Lee</a>
             <a href=""></a>
+             </section>
             <section id="contact">
-            <div class="condiv">
-             <a href="mailto:someone@example.com?Subject=Hello">
-             <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>mygmailid@gmail.com</h3>   
-             </a>   
-            </div>
+            <div class="contact_1 col-lg-6 col-md-6 col-sm-8 col-xs-12" > <a href="mailto:someone@gmail.com?Subject=Hello"> <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5> </a> <a href="#">  </a> </div> <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12"> <form> <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required> <br><br> <span>Comment : </span><input type="text" name="comment" required> <br><br> <input type="submit" value="submit" class="btn btn-success" > </form> </div>
+Send a chat message... 
             </section>
-        </section>
     </div>
 </body>

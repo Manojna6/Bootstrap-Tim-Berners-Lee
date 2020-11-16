@@ -20,7 +20,7 @@ body{
     list-style:none;
     z-index:7;
     width:100%;
-    position:absolute;
+    position:sticky;
 }
 .links{
     color:white;
