@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+#Home{
+    background: linear-gradient(#000000 0%, #ffffff 100%);
+    padding-top: 100px;
+    z-index:3;
+}
+#portfolioimg{
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 50px
+}
+#TBLinfo{
+    font-family: comic sans-serif;
+    font-size: 18px
+}
+.menu{
+    top:5px;
+    list-style:none;
+    z-index:7;
+    width:100%;
+    position:absolute;
+}
+.links{
+    color:white;
+    font-size:30px;
+    font-family: 'Amatic SC', cursive;
+    display:inline;
+    font-weight: bold;
+    padding: 10px;
+}
+.links a:hover{
+   background-color:white;
+    color:black;
+    padding: 10px;
+    font-size: 35px;
+}
+.links a{
+    text-decoration: none;
+    color: white;   
+}
+.condiv{
+    background: black;
+}
+.condiv h3{
+    display: inline;
+}
+.condiv a{
+    color: white;
+}
